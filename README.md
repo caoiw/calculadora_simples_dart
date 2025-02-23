@@ -1,16 +1,16 @@
-💻 Calculadora Simples em Dart
+### 💻 Calculadora Simples em Dart
 
 Este projeto é uma calculadora simples desenvolvida em Dart que permite ao usuário realizar operações matemáticas básicas diretamente pelo terminal.
-
-🌐 Tecnologias Utilizadas
+---
+### 🌐 Tecnologias Utilizadas
 
 Dart: Linguagem de programação utilizada no projeto.
 
 Terminal: Entrada e saída de dados são realizadas via terminal.
 
 Git/GitHub: Versionamento e compartilhamento do código-fonte.
-
-🛠️ Funcionalidades
+---
+### 🛠️ Funcionalidades
 
 Operações matemáticas básicas:
 
@@ -25,8 +25,8 @@ Divisão (/)
 Tratamento de entrada inválida
 
 Verificação de divisão por zero
-
-📝 Como Executar o Projeto
+---
+### 📝 Como Executar o Projeto
 
 1. Pré-requisitos
 
@@ -40,8 +40,8 @@ Ter o Dart instalado. Se não tiver, instale seguindo as instruções no site of
 3. Executar o Projeto
 
   dart run bin/dio_projetos_calculadora.dart
-
-👨‍💻 Exemplo de Uso
+---
+### 👨‍💻 Exemplo de Uso
 
 Bem-vindo à calculadora!
 Informe o primeiro número:
@@ -51,16 +51,16 @@ Informe o segundo número:
 Informe a operação matemática desejada (+, -, *, /):
 > /
 O resultado da operação é: 2.0
-
-✨ Melhorias Futuras
+---
+### ✨ Melhorias Futuras
 
 Implementação de um menu interativo.
 
 Suporte a mais operações matemáticas.
 
 Interface gráfica utilizando Flutter.
-
-✅ Licença
+---
+### ✅ Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
 
