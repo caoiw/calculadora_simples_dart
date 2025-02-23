@@ -1,47 +1,55 @@
-### 💻 Calculadora Simples em Dart
+# 💻 Calculadora Simples em Dart
 
-Este projeto é uma calculadora simples desenvolvida em Dart que permite ao usuário realizar operações matemáticas básicas diretamente pelo terminal.
+Este projeto é uma **calculadora simples** desenvolvida em Dart que permite ao usuário realizar operações matemáticas básicas diretamente pelo terminal.
+
 ---
-### 🌐 Tecnologias Utilizadas
 
-Dart: Linguagem de programação utilizada no projeto.
+## 🌐 Tecnologias Utilizadas
 
-Terminal: Entrada e saída de dados são realizadas via terminal.
+- **Dart**: Linguagem de programação utilizada no projeto.
+- **Terminal**: Entrada e saída de dados realizadas via terminal.
+- **Git/GitHub**: Versionamento e compartilhamento do código-fonte.
 
-Git/GitHub: Versionamento e compartilhamento do código-fonte.
 ---
-### 🛠️ Funcionalidades
 
-Operações matemáticas básicas:
+## 🛠️ Funcionalidades
 
-Adição (+)
+A calculadora realiza as seguintes operações matemáticas básicas:
 
-Subtração (-)
+- **Adição**: `+`
+- **Subtração**: `-`
+- **Multiplicação**: `*`
+- **Divisão**: `/`
 
-Multiplicação (*)
+Outras funcionalidades incluem:
+- Tratamento de entradas inválidas.
+- Verificação de divisão por zero.
 
-Divisão (/)
-
-Tratamento de entrada inválida
-
-Verificação de divisão por zero
 ---
-### 📝 Como Executar o Projeto
 
-1. Pré-requisitos
+## 📝 Como Executar o Projeto
 
-Ter o Dart instalado. Se não tiver, instale seguindo as instruções no site oficial: Dart.dev
+1. **Pré-requisitos**  
+   Ter o Dart instalado em sua máquina. Se ainda não tiver, siga as instruções no site oficial: [Dart.dev](https://dart.dev/get-dart).
 
-2. Clonar o Repositório
+2. **Clonar o Repositório**  
+   Execute os comandos abaixo no seu terminal:
+   ```bash
+   git clone https://github.com/seu-usuario/calculadora_simples_dart.git
+   cd calculadora_simples_dart
 
-  git clone https://github.com/seu-usuario/calculadora_simples_dart.git
-  cd calculadora_simples_dart
-
-3. Executar o Projeto
-
+3. **Executar o Projeto**
+  No diretório do projeto, execute:
+  ```bash
+  Copiar
+  Editar
   dart run bin/dio_projetos_calculadora.dart
+
 ---
-### 👨‍💻 Exemplo de Uso
+
+## 👨‍💻 Exemplo de Uso
+
+Ao rodar a calculadora no terminal, você verá um fluxo como o seguinte:
 
 Bem-vindo à calculadora!
 Informe o primeiro número:
@@ -51,16 +59,18 @@ Informe o segundo número:
 Informe a operação matemática desejada (+, -, *, /):
 > /
 O resultado da operação é: 2.0
+
 ---
-### ✨ Melhorias Futuras
 
-Implementação de um menu interativo.
+## ✨ Melhorias Futuras
 
-Suporte a mais operações matemáticas.
+- Implementação de um menu interativo.
+- Suporte a mais operações matemáticas.
+- Criação de uma interface gráfica utilizando Flutter.
 
-Interface gráfica utilizando Flutter.
 ---
-### ✅ Licença
+
+## ✅ Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
 
