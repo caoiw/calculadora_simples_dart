@@ -42,7 +42,6 @@ Outras funcionalidades incluem:
   No diretório do projeto, execute:
   ```bash
   dart run bin/dio_projetos_calculadora.dart
-
 ---
 
 ## 👨‍💻 Exemplo de Uso
