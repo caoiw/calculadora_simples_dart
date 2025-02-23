@@ -41,8 +41,6 @@ Outras funcionalidades incluem:
 3. **Executar o Projeto**
   No diretório do projeto, execute:
   ```bash
-  Copiar
-  Editar
   dart run bin/dio_projetos_calculadora.dart
 
 ---
