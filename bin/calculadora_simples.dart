@@ -28,24 +28,21 @@ void main(List<String> arguments) {
   // Declara a variável que armazenará o resultado da operação
   double resultado = 0;
 
-  // Estrutura condicional para verificar qual operação será realizada
-  if (operacao == "+") {
-    resultado = numero1 + numero2;
-  } else if (operacao == "-") {
-    resultado = numero1 - numero2;
-  } else if (operacao == "*") {
-    resultado = numero1 * numero2;
-  } else if (operacao == "/") {
-    // Verifica se a divisão por zero não ocorrerá
-    if (numero2 != 0) {
+  // Switch Case para definir a operação escolhida
+  switch (operacao) {
+    case "+":
+      resultado = numero1 + numero2;
+      break;
+    case "-":
+      resultado = numero1 - numero2;
+      break;
+    case "*":
+      resultado = numero1 * numero2;
+      break;      
+    case "/":
       resultado = numero1 / numero2;
-    } else {
-      print("Erro: divisão por zero não é permitida!");
-      exit(0); // Finaliza o programa em caso de erro
-    }
-  } else {
-    print("Operação Inválida!"); // Caso o usuário insira uma operação desconhecida
-    exit(0); // Finaliza o programa
+      break;
+    default:
   }
 
   // Exibe o resultado da operação escolhida
