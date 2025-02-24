@@ -37,11 +37,13 @@ Outras funcionalidades incluem:
    ```bash
    git clone https://github.com/seu-usuario/calculadora_simples_dart.git
    cd calculadora_simples_dart
+   ```
 
 3. **Executar o Projeto**
   No diretório do projeto, execute:
   ```bash
   dart run bin/dio_projetos_calculadora.dart
+  ```
 
 ---
 
