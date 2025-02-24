@@ -1,7 +1,7 @@
 import 'dart:convert'; // Biblioteca para lidar com codificação de caracteres
 import 'dart:io'; // Biblioteca para entrada/saída de dados via terminal
 
-/// Função principal
+// Função principal
 void main(List<String> arguments) {
   print("Bem-vindo à calculadora!"); // Mensagem inicial
 
